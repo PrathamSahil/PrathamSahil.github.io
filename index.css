@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono&family=Lato:wght@300;700&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #1b1a17;
+  align-items: center;
+}
+
+#container {
+  margin-top: 22vh;
+  width: 70vw;
+  height: 15vw;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+#profile-picture {
+  height: fit-content;
+  border: 3px #9f9f92 solid;
+  margin-right: 5vw;
+}
+
+#profile-picture > img {
+  position: relative;
+  bottom: 15px;
+  left: 15px;
+}
+
+#profile-picture,
+#profile-picture > img {
+  width: 15vw;
+  border-radius: 3px;
+}
+
+#introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: inherit !important;
+}
+
+#hello {
+  font-family: "Fira Mono", monospace;
+  color: grey;
+  font-size: 1.5rem;
+}
+
+#name {
+  font-family: "Lato", sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+#whoami {
+  font-family: "Lato", sans-serif;
+  color: #d6d6d6;
+  font-size: 4rem;
+}
+
+#github-handle {
+  font-family: "Fira Mono", monospace;
+  color: #ffb17a;
+  font-size: 1rem;
+  justify-self: flex-end;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

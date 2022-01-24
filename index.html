@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- 
+    Hi everyone, following code is preset template,
+    where you can fill your details and your new webpage is ready to be published.
+    Details required are following:
+    $full_name: Student's Full Name. For eg: Ayush Bansal.
+    $github_username: Student's Github Username. For eg: ayu023ban.
+    $profile_pic_url: Student's Profile Pic URl can be taken from any public website such as: Github, Facebook.
+    $studying_year:Student's Year in following format:
+        1st Year:       Freshmen
+        2nd Year:       Sophomore
+        Prefinal Year:  Junior
+        Final Year:     Senior
+    
+ -->
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile-picture">
+        <img src="{$profile_pic}" />
+      </div>
+      <div id="introduction">
+        <span>
+          <div id="hello">Hello, I am</div>
+          <div id="name">{$full_name$}</div>
+          <div id="whoami">A {$studying_year} at IIT Roorkee</div>
+        </span>
+        <span>
+          <div id="github-handle">
+            <a href="https://github.com/{$github_username}" target="__blank">@{$github_username}</a>
+          </div>
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
