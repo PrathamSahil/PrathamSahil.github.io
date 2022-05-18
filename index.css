@@ -68,6 +68,38 @@ body {
   text-decoration: underline;
 }
 
+#newlink {
+  font-family: "Fira Mono", monospace;
+  color: #ffb17a;
+  font-size: 1rem;
+  justify-self: flex-end;
+  text-decoration: underline;
+}
+
+#linkedin {
+  font-family: "Fira Mono", monospace;
+  color: #ffb17a;
+  font-size: 1rem;
+  justify-self: flex-end;
+  text-decoration: underline;
+}
+
+#facebook {
+  font-family: "Fira Mono", monospace;
+  color: #ffb17a;
+  font-size: 1rem;
+  justify-self: flex-end;
+  text-decoration: underline;
+}
+
+#insta {
+  font-family: "Fira Mono", monospace;
+  color: #ffb17a;
+  font-size: 1rem;
+  justify-self: flex-end;
+  text-decoration: underline;
+}
+
 a {
   text-decoration: none;
   color: inherit;
