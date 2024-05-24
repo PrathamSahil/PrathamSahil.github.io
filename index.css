@@ -100,6 +100,14 @@ body {
   text-decoration: underline;
 }
 
+#itch {
+  font-family: "Fira Mono", monospace;
+  color: #ffb17a;
+  font-size: 1rem;
+  justify-self: flex-end;
+  text-decoration: underline;
+}
+
 a {
   text-decoration: none;
   color: inherit;
